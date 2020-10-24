@@ -8,45 +8,45 @@
  En el momento de crear el socket, se define que el socket va a trabajar con un -socket.SOCK_STREAM- lo que significa que el socket será de tipo TCP
 
 ## Vocabulario de Mensajes
- **HELP:** Nos proporciona información con relación a los diferentes comandos que podemos ingresar y las posibles repuestas que nos retorna el servidor <br />
+ **HELP:** Nos proporciona información con relación a los diferentes comandos que podemos ingresar y las posibles repuestas que nos retorna el servidor. <br />
  Sintaxis:
  ```HELP```
  
-**QUIT:** Se cierra la conexión cliente - servidor que se ha establecido <br />
+**QUIT:** Se cierra la conexión cliente - servidor que se ha establecido. <br />
  Sintaxis:
  ```QUIT```
  
-**CREATE_B:** Nos permite crear un bucket con un nombre en específico, esto en la ruta en la que el servidor es ejecutado
+**CREATE_B:** Nos permite crear un bucket con un nombre en específico, esto en la ruta en la que el servidor es ejecutado. <br />
  Sintaxis:
  ```CREATE_B <nombre del bucket>```
  
-**LIST_B:** Nos permite ver la lista de los buckets que hay creados, esto en la ruta en la que el servidor es ejecutado
+**LIST_B:** Nos permite ver la lista de los buckets que hay creados, esto en la ruta en la que el servidor es ejecutado. <br />
  Sintaxis:
  ```LIST_B```
  
-**DELETE_B:** Nos permite eliminar un bucket con un nombre en específico, esto en la ruta en la que el servidor es ejecutado
+**DELETE_B:** Nos permite eliminar un bucket con un nombre en específico, esto en la ruta en la que el servidor es ejecutado. <br />
  Sintaxis:
  ```DELETE_B <nombre del bucket>```
 
-**UPLOAD:** Nos permite cargar un archivo a un bucket.
+**UPLOAD:** Nos permite cargar un archivo a un bucket. <br />
  Proceso - Sintaxis:
  - ```UPLOAD```
  - ```<Ruta del fichero a cargar en el bucket>``` (Esta ruta contiene el nombre del archivo a cargar)
  - ```<nombre del bucket>``` Bucket donde se desea cargar el archivo
  - ```<nombre del fichero>``` Nuevo nombre del archivo
 
-**LIST_F:** Nos permite ver los diferentes archivos que hay en cada uno de los buckets que hay creados en la ruta donde se corre el servidor
+**LIST_F:** Nos permite ver los diferentes archivos que hay en cada uno de los buckets que hay creados en la ruta donde se corre el servidor. <br />
  Sintaxis:
  ```LIST_F```
 
-**DOWNLOAD:** Nos permite descargar un archivo desde el cliente hasta el servidor, es decir, desde uno de los buckets hasta una ruta que ingresa el cliente
+**DOWNLOAD:** Nos permite descargar un archivo desde el cliente hasta el servidor, es decir, desde uno de los buckets hasta una ruta que ingresa el cliente. <br />
  Proceso - Sintaxis:
  - ```DOWNLOAD```
  - ```<nombre del bucket>``` Bucket donde se desea cargar el archivo
  - ```<nombre del fichero>``` Nuevo nombre del archivo
  - ```<Ruta del fichero donde se va a descargar>```
  
-**DELETE_F:** Nos permite borrar un archivo desde uno de los buckets del servidor
+**DELETE_F:** Nos permite borrar un archivo desde uno de los buckets del servidor. <br />
  Proceso - Sintaxis:
  - ```DELETE_F```
  - ```<nombre del bucket origen>``` Nombre del bucket donde se encuentra almacenado el archivo
