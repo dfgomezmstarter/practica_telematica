@@ -2,7 +2,7 @@
 """
 Created on Sun Oct 18 11:11:41 2020
 
-@author: Daniel Felipe Gómez Martinez, Cesar Andres Garcia Posada
+@author: Daniel Felipe Gomez Martinez, Cesar Andres Garcia Posada
 """
 
 #Import libraries for networking communication
