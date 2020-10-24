@@ -79,3 +79,8 @@
  **Para el comando DELETE_F**
  - **1000 DFS:** significa que la eliminación de un archivo en un bucket determinado ocurrió de forma exitosa
  - **1001 DFF:** significa que la eliminación de un archivo en un bucket determinado tuvo problemas al realizar la petición
+ 
+<br />
+
+### Nota: para crear la instancia del servidor se necesita añadir al final la dirección de donde se añadiran los buckets
+** ejemplo: python3 server.py D:\PycharmProjects\socket\buckets
