@@ -8,11 +8,11 @@
  En el momento de crear el socket, se define que el socket va a trabajar con un -socket.SOCK_STREAM- lo que significa que el socket será de tipo TCP
 
 ## Vocabulario de Mensajes
- **help:** Nos proporciona información con relación a los diferentes comandos que podemos ingresar y las posibles repuestas que nos retorna el servidor
+ **HELP:** Nos proporciona información con relación a los diferentes comandos que podemos ingresar y las posibles repuestas que nos retorna el servidor <br />
  Sintaxis:
  ```HELP```
  
-**quit:** Se cierra la conexión cliente - servidor que se ha establecido
+**QUIT:** Se cierra la conexión cliente - servidor que se ha establecido <br />
  Sintaxis:
  ```QUIT```
  
@@ -55,27 +55,27 @@
 ## Regla de Procedimientos
 
  **Para el comando CREATE_B**
- **300 BCS:** significa que la creación del bucket fue exitosa
- **301 BCF:** significa que la creación del bucket falló en algún momento
+ - **300 BCS:** significa que la creación del bucket fue exitosa
+ - **301 BCF:** significa que la creación del bucket falló en algún momento
 
  **Para el comando LIST_B**
- **400 LS:** significa que la lista de los buckets se ha generado exitosamente
+ - **400 LS:** significa que la lista de los buckets se ha generado exitosamente
  
  **Para el comando DELETE_B**
- **600 DBS:** significa que la eliminación del bucket fue exitosa
- **601 DBF:** significa que la eliminación del bucket falló en algún momento
+ - **600 DBS:** significa que la eliminación del bucket fue exitosa
+ - **601 DBF:** significa que la eliminación del bucket falló en algún momento
 
  **Para el comando UPLOAD**
- **700 FUBS:** significa que la carga de un archivo a un determinado bucket se generó de forma exitosa
- **701 FUBF:** significa que la carga de un archivo a un determinado bucket falló en algún momento
+ - **700 FUBS:** significa que la carga de un archivo a un determinado bucket se generó de forma exitosa
+ - **701 FUBF:** significa que la carga de un archivo a un determinado bucket falló en algún momento
 
  **Para el comando LIST_F**
- **800 LFS:** significa que la lista de los archivos de cada uno de los buckets se generó de manera exitosa
+ - **800 LFS:** significa que la lista de los archivos de cada uno de los buckets se generó de manera exitosa
 
  **Para el comando DOWNLOAD**
- **900 FDBS:** significa que la descarga de un archivo desde el servidor hasta una ruta ingresada por el cliente ocurrió de forma exitosa
- **901 FDBS:** significa que la descarga de un archivo desde el servidor hasta una ruta ingresada por el cliente tuvo un falló en algún momento
+ - **900 FDBS:** significa que la descarga de un archivo desde el servidor hasta una ruta ingresada por el cliente ocurrió de forma exitosa
+ - **901 FDBS:** significa que la descarga de un archivo desde el servidor hasta una ruta ingresada por el cliente tuvo un falló en algún momento
 
  **Para el comando DELETE_F**
- **1000 DFS:** significa que la eliminación de un archivo en un bucket determinado ocurrió de forma exitosa
- **1001 DFF:** significa que la eliminación de un archivo en un bucket determinado tuvo problemas al realizar la petición
+ - **1000 DFS:** significa que la eliminación de un archivo en un bucket determinado ocurrió de forma exitosa
+ - **1001 DFF:** significa que la eliminación de un archivo en un bucket determinado tuvo problemas al realizar la petición
