@@ -30,10 +30,10 @@
 
 **UPLOAD:** Nos permite cargar un archivo a un bucket.
  Proceso - Sintaxis:
- *```UPLOAD```
- *```<Ruta del fichero a cargar en el bucket>``` (Esta ruta contiene el nombre del archivo a cargar)
- *```<nombre del bucket>``` Bucket donde se desea cargar el archivo
- *```<nombre del fichero>``` Nuevo nombre del archivo
+ ..*```UPLOAD```
+ ..*```<Ruta del fichero a cargar en el bucket>``` (Esta ruta contiene el nombre del archivo a cargar)
+ ..*```<nombre del bucket>``` Bucket donde se desea cargar el archivo
+ ..*```<nombre del fichero>``` Nuevo nombre del archivo
 
 **LIST_F:** Nos permite ver los diferentes archivos que hay en cada uno de los buckets que hay creados en la ruta donde se corre el servidor
  Sintaxis:
