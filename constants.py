@@ -2,13 +2,13 @@
 """
 Created on Sun Oct 18 12:05:32 2020
 
-@author: Daniel Felipe Gómez Martinez, Cesar Andres Garcia Posada
+@author: Daniel Felipe Gomez Martinez, Cesar Andres Garcia Posada
 """
 
 SERVER_ADDRESS = "127.0.0.1"
 PORT = 1234
 BACKLOG = 5
-RECV_BUFFER_SIZE = 1024 #100
+RECV_BUFFER_SIZE = 1024
 HELP_BUFFER_SIZE = 2048
 ENCODING_FORMAT = "utf-8"
 QUIT = "QUIT"
@@ -17,7 +17,6 @@ CREATE_B ="CREATE_B"
 LIST_B = "LIST_B"
 UPLOAD = "UPLOAD"
 DELETE_F ="DELETE_F"
-CREATE_F ="CREATE_F"
 LIST_F = "LIST_F"
 DOWNLOAD = "DOWNLOAD"
 HELP = "HELP"
@@ -53,20 +52,20 @@ HELP_ARRAY = (
 HELP_ARRAY2 = ("RESPUESTAS\n"
  "Para el comando CREATE_B\n"
  "---> 300 BCS: creación del bucket exitosa\n"
- "---> 301 BCF: creación del bucket falló en algún momento\n"
+ "---> 301 BCF: creación del bucket fallo en algun momento\n"
  "Para el comando LIST_B\n"
  "---> 400 LS: lista de los buckets se ha generado exitosamente\n"
  "Para el comando DELETE_B\n"
  "---> 600 DBS: eliminación del bucket exitosa\n"
- "---> 601 DBF: eliminación del bucket falló en algún momento\n"
+ "---> 601 DBF: eliminación del bucket fallo en algún momento\n"
  "Para el comando UPLOAD\n"
- "---> 700 FUBS: carga de un archivo en un bucket se generó de forma exitosa\n"
- "---> 701 FUBF: carga de un archivo en un bucket falló en algún momento\n"
+ "---> 700 FUBS: carga de un archivo en un bucket se genero de forma exitosa\n"
+ "---> 701 FUBF: carga de un archivo en un bucket fallo en algún momento\n"
  "Para el comando LIST_F\n"
  "---> 800 LFS: lista de los archivos de cada bucket se generó de manera exitosa\n"
  "Para el comando DOWNLOAD\n"
  "---> 900 FDBS: descarga de un archivo desde el servidor hasta una ruta exitosa\n"
- "---> 901 FDBS: descarga de un archivo desde el servidor hasta una ruta tuvo un falló \n"
+ "---> 901 FDBF: descarga de un archivo desde el servidor hasta una ruta tuvo un fallo \n"
  "Para el comando DELETE_F\n"
  "---> 1000 DFS: eliminación de un archivo exitosa\n"
  "---> 1001 DFF: eliminación de un archivo tuvo problemas \n"
