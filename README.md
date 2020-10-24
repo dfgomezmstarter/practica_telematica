@@ -41,16 +41,16 @@
 
 **DOWNLOAD:** Nos permite descargar un archivo desde el cliente hasta el servidor, es decir, desde uno de los buckets hasta una ruta que ingresa el cliente
  Proceso - Sintaxis:
- *```DOWNLOAD```
- *```<nombre del bucket>``` Bucket donde se desea cargar el archivo
- *```<nombre del fichero>``` Nuevo nombre del archivo
- *```<Ruta del fichero donde se va a descargar>```
+ - ```DOWNLOAD```
+ - ```<nombre del bucket>``` Bucket donde se desea cargar el archivo
+ - ```<nombre del fichero>``` Nuevo nombre del archivo
+ - ```<Ruta del fichero donde se va a descargar>```
  
 **DELETE_F:** Nos permite borrar un archivo desde uno de los buckets del servidor
  Proceso - Sintaxis:
- ```DELETE_F```
- ```<nombre del bucket origen>``` Nombre del bucket donde se encuentra almacenado el archivo
- ```<nombre del archivo>``` Nombre del archivo que se desea eliminar del bucket ingresado anteriormente
+ - ```DELETE_F```
+ - ```<nombre del bucket origen>``` Nombre del bucket donde se encuentra almacenado el archivo
+ - ```<nombre del archivo>``` Nombre del archivo que se desea eliminar del bucket ingresado anteriormente
 
 ## Regla de Procedimientos
 
