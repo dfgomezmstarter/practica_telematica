@@ -83,4 +83,4 @@
 <br />
 
 ### Nota: para crear la instancia del servidor se necesita añadir al final la dirección de donde se añadiran los buckets
-** Ejemplo: python3 server.py D:\PycharmProjects\socket\buckets **
+**Ejemplo: ```python3 server.py D:\PycharmProjects\socket\buckets```**
